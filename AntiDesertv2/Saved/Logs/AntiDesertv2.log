@@ -21,8 +21,6 @@ LogCsvProfiler: Display: Metadata set : os="Windows 11 (22H2) [10.0.22621.2283] 
 LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|Intel(R) Core(TM) i7-10700F CPU @ 2.90GHz"
 LogCsvProfiler: Display: Metadata set : pgoenabled="0"
 LogCsvProfiler: Display: Metadata set : asan="0"
-LogCsvProfiler: Display: Metadata set : commandline="" "C:/Users/16313/OneDrive/Documents/Unreal Projects/Epic_Mega_Jam2023_Submission/AntiDesertv2/AntiDesertv2.uproject" -AUTH_LOGIN=unused -AUTH_PASSWORD=cfef832b6131484dbd32ba93333c89bd -AUTH_TYPE=exchangecode -epicapp=UE_5.2 -epicenv=Prod -EpicPortal -epicusername=GUBBL3 -epicuserid=4f91176755c14b6f873827cc1dd3fb60 -epiclocale=en -epicsandboxid=ue""
-LogCsvProfiler: Display: Metadata set : loginid="5c244f144a08e3f601414892290eda7b"
 LogCsvProfiler: Display: Metadata set : llm="0"
 LogStats: Stats thread started at 0.391497
 LogPluginManager: Adding extension module BinkMediaPlayer from BinkMedia_HoloLens to BinkMedia
