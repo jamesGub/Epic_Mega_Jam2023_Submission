@@ -1436,3 +1436,15 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.09.16-03.54.12:979][790]AssetCheck: New page: Asset Save: Desert-LowPoly
 [2023.09.16-03.54.12:979][790]LogContentValidation: Display: Validating /Script/Engine.World /Game/Desert-LowPoly.Desert-LowPoly
 [2023.09.16-03.54.18:062][156]LogSlate: Window 'Revision Control Login' being destroyed
+[2023.09.16-03.56.35:980][583]LogDerivedDataCache: C:/Users/16313/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:02:50.247 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 93273 files in 81759 folders with total size 22316 MiB.
+[2023.09.16-03.56.53:509][636]LogHttp: Warning: 0000058A9AE8A000: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3EB1B35F-407D-98E4-C48B-F0A1DBC005EA%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=5c244f144a08e3f601414892290eda7b%7C4f91176755c14b6f873827cc1dd3fb60%7C3b83f4bc-ef6e-499b-a5c0-2cc64d45fb11&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.09.16-03.56.53:509][636]LogHttp: Warning: 0000058A9AE8A000: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2023.09.16-03.56.53:509][636]LogHttp: Warning: 0000058A9AE8A000: libcurl info message cache 0 (Found bundle for host: 0x58a381606f0 [serially])
+[2023.09.16-03.56.53:509][636]LogHttp: Warning: 0000058A9AE8A000: libcurl info message cache 1 (Re-using existing connection #1 with host datarouter.ol.epicgames.com)
+[2023.09.16-03.56.53:509][636]LogHttp: Warning: 0000058A9AE8A000: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.203.176.76) port 443 (#1))
+[2023.09.16-03.56.53:509][636]LogHttp: Warning: 0000058A9AE8A000: libcurl info message cache 3 (We are completely uploaded and fine)
+[2023.09.16-03.56.53:509][636]LogHttp: Warning: 0000058A9AE8A000: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2023.09.16-03.56.53:509][636]LogHttp: Warning: 0000058A9AE8A000: libcurl info message cache 5 (necessary data rewind wasn't possible)
+[2023.09.16-03.56.53:509][636]LogHttp: Warning: 0000058A9AE8A000: libcurl info message cache 6 (Closing connection 1)
+[2023.09.16-03.56.53:509][636]LogHttp: Warning: 0000058A9AE8A000: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2023.09.16-03.56.53:509][636]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3EB1B35F-407D-98E4-C48B-F0A1DBC005EA%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=5c244f144a08e3f601414892290eda7b%7C4f91176755c14b6f873827cc1dd3fb60%7C3b83f4bc-ef6e-499b-a5c0-2cc64d45fb11&AppEnvironment=datacollector-binary&UploadType=eteventstream
