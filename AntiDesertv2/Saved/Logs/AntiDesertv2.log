@@ -1448,3 +1448,98 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.09.16-03.56.53:509][636]LogHttp: Warning: 0000058A9AE8A000: libcurl info message cache 6 (Closing connection 1)
 [2023.09.16-03.56.53:509][636]LogHttp: Warning: 0000058A9AE8A000: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
 [2023.09.16-03.56.53:509][636]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3EB1B35F-407D-98E4-C48B-F0A1DBC005EA%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=5c244f144a08e3f601414892290eda7b%7C4f91176755c14b6f873827cc1dd3fb60%7C3b83f4bc-ef6e-499b-a5c0-2cc64d45fb11&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.09.16-03.59.11:037][123]LogEditorViewport: Clicking Background
+[2023.09.16-03.59.13:500][312]LogEditorViewport: Clicking Background
+[2023.09.16-03.59.23:388][ 61]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.16-03.59.23:395][ 61]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.16-03.59.23:395][ 61]PIE: New page: PIE session: Desert-LowPoly (Sep 15, 2023, 7:59:23 PM)
+[2023.09.16-03.59.23:395][ 61]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Desert-LowPoly
+[2023.09.16-03.59.23:417][ 61]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020692s)
+[2023.09.16-03.59.23:417][ 61]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Desert-LowPoly.Desert-LowPoly to /Game/UEDPIE_0_Desert-LowPoly.Desert-LowPoly (0.020752s)
+[2023.09.16-03.59.23:417][ 61]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.16-03.59.23:417][ 61]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.16-03.59.23:418][ 61]LogAIModule: Creating AISystem for world Desert-LowPoly
+[2023.09.16-03.59.23:418][ 61]LogPlayLevel: PIE: World Init took: (0.001487s)
+[2023.09.16-03.59.23:427][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2023.09.16-03.59.23:428][ 61]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2023.09.16-03.59.23:428][ 61]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.16-03.59.23:428][ 61]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.16-03.59.23:428][ 61]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.16-03.59.23:428][ 61]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.16-03.59.23:428][ 61]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.16-03.59.23:428][ 61]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.09.16-03.59.23:428][ 61]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.16-03.59.23:428][ 61]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.16-03.59.23:428][ 61]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.16-03.59.23:428][ 61]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.16-03.59.23:428][ 61]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.16-03.59.23:431][ 61]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.16-03.59.23:527][ 61]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2023.09.16-03.59.23:528][ 61]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.16-03.59.23:528][ 61]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.16-03.59.23:528][ 61]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.16-03.59.23:529][ 61]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2023.09.16-03.59.23:529][ 61]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=4
+[2023.09.16-03.59.23:532][ 61]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2023.09.16-03.59.23:532][ 61]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2023.09.16-03.59.23:532][ 61]LogInit: FAudioDevice initialized with ID 4.
+[2023.09.16-03.59.23:532][ 61]LogAudio: Display: Audio Device (ID: 4) registered with world 'Desert-LowPoly'.
+[2023.09.16-03.59.23:532][ 61]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2023.09.16-03.59.23:535][ 61]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.09.16-03.59.23:538][ 61]LogWorld: Bringing World /Game/UEDPIE_0_Desert-LowPoly.Desert-LowPoly up for play (max tick rate 0) at 2023.09.15-23.59.23
+[2023.09.16-03.59.23:538][ 61]LogWorld: Bringing up level for play took: 0.003597
+[2023.09.16-03.59.23:540][ 61]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2023.09.16-03.59.23:545][ 61]PIE: Server logged in
+[2023.09.16-03.59.23:546][ 61]PIE: Play in editor total start time 0.151 seconds.
+[2023.09.16-03.59.23:710][ 61]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.16-03.59.23:710][ 61]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.16-03.59.23:711][ 61]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.16-03.59.23:711][ 61]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.16-03.59.23:712][ 61]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.16-03.59.23:712][ 61]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.16-03.59.23:713][ 61]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.16-03.59.23:713][ 61]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.16-03.59.23:714][ 61]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.16-03.59.23:714][ 61]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.16-03.59.23:714][ 61]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.16-03.59.23:715][ 61]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.16-03.59.23:715][ 61]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.16-03.59.30:841][520]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.16-03.59.30:842][520]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Desert-LowPoly
+[2023.09.16-03.59.30:842][520]LogWorld: UWorld::CleanupWorld for Desert-LowPoly, bSessionEnded=true, bCleanupResources=true
+[2023.09.16-03.59.30:842][520]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.16-03.59.30:847][520]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.16-03.59.30:849][520]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.16-03.59.30:858][520]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.16-03.59.30:858][520]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2023.09.16-03.59.30:858][520]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.09.16-03.59.30:861][520]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.09.16-03.59.30:883][520]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2023.09.16-03.59.30:951][520]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.16-03.59.30:952][520]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.16-03.59.30:952][520]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.16-03.59.30:953][520]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.16-03.59.30:953][520]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.16-03.59.30:953][520]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.16-03.59.30:954][520]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.16-03.59.30:955][520]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.16-03.59.30:955][520]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.16-03.59.30:956][520]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.16-03.59.30:957][520]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.16-03.59.30:957][520]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.16-03.59.30:963][521]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2023.09.16-03.59.32:343][614]LogEditorViewport: Clicking Background
+[2023.09.16-03.59.32:857][650]Cmd: TRANSACTION UNDO
+[2023.09.16-03.59.32:857][650]LogEditorTransaction: Undo Rotate Atmosphere Light 0
+[2023.09.16-03.59.32:913][650]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.16-03.59.32:913][650]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.16-03.59.32:914][650]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.16-03.59.32:914][650]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.16-03.59.32:914][650]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.16-03.59.32:915][650]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.16-03.59.32:915][650]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.16-03.59.32:916][650]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.16-03.59.32:916][650]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.16-03.59.32:917][650]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.16-03.59.32:917][650]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.16-03.59.32:917][650]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
