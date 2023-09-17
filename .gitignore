@@ -6,18 +6,18 @@
 !/.git*
 
 # Do not ignore current project's `.uproject`.
-!/*.uproject
+!/AntiDesertv2/*.uproject
 
 # Do not ignore source, config and plugins dirs.
-!/Source/**
-!/Config/**
-!/Plugins/**
+!/AntiDesertv2/Source/**
+!/AntiDesertv2/Config/**
+!/AntiDesertv2/Plugins/**
 
 # Only allow .uasset and .umap files from /Content dir.
 # They're tracked by git-lfs, don't forget to track other
 # files if adding them here.
-!/Content/**/*.uasset
-!/Content/**/*.umap
+!/AntiDesertv2/Content/**/*.uasset
+!/AntiDesertv2/Content/**/*.umap
 
 # Allow any files from /RawContent dir.
 # Any file in /RawContent dir will be managed by git lfs.
