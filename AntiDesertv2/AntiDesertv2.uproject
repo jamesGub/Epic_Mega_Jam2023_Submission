@@ -16,11 +16,11 @@
 			"Enabled": true
 		},
 		{
-			"Name": "Water",
+			"Name": "PCGGeometryScriptInterop",
 			"Enabled": true
 		},
 		{
-			"Name": "WaterExtras",
+			"Name": "PCG",
 			"Enabled": true
 		}
 	]
